@@ -1,4 +1,4 @@
-# Deriv_api
+# Deriv Repository Library
 
 A new Flutter package project.
 
