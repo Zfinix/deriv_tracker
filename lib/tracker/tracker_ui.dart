@@ -1,4 +1,5 @@
 import 'package:deriv_repository/deriv_repository.dart';
+import 'package:deriv_tracker/tracker/tracker_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:gap/gap.dart';
@@ -122,7 +123,9 @@ class DerivTrackerPopulated extends StatelessWidget {
             ),
           ],
         ),
-        const Gap(80),
+        const Gap(30),
+        TrackerChart(state),
+        const Gap(40),
         DerivDropdownButton(
           title: 'Market',
           onSelectValue: (val) {},

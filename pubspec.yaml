@@ -26,6 +26,7 @@ dependencies:
   mockito: ^5.0.17
   deriv_repository:
     path: packages/deriv_repository
+  fl_chart: ^0.55.0
 
 dev_dependencies:
   bloc_test: ^9.0.3
