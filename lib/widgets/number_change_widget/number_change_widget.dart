@@ -22,8 +22,6 @@ class NumberChangeWidgetState<T> extends State<NumberChangeWidget<T>>
 
   @override
   void didUpdateWidget(NumberChangeWidget oldWidget) {
-    // sc(context).logger.d('didUpdateWidget | val: ${widget.value}');
-
     animation = Tween<T>(begin: oldWidget.value, end: widget.value).animate(
         CurvedAnimation(
             parent: animationController, curve: Curves.fastLinearToSlowEaseIn))
