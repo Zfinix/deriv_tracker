@@ -1,0 +1,42 @@
+name: deriv_tracker
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  animated_digit: ^3.2.1
+  bloc: ^8.0.3
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_svg: ^1.1.0
+  gap: ^2.0.0
+  google_fonts: ^2.3.3
+  intl: ^0.17.0
+  json_serializable: ^6.2.0
+  modal_bottom_sheet: ^2.0.1
+  rxdart: ^0.27.4
+  web_socket_channel: ^2.2.0
+  mockito: ^5.0.17
+  deriv_repository:
+    path: packages/deriv_repository
+
+dev_dependencies:
+  bloc_test: ^9.0.3
+  flutter_test:
+    sdk: flutter
+  lints: ^2.0.0
+  build_runner: any
+  test: any
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/images/svg/
